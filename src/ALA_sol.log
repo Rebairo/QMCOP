@@ -1,0 +1,230 @@
+Randomised Sobol sequence generated
+
+Discrepancy: 0.09224128763177752
+
+
+          #########################################################
+          #                                                       #
+          #     T  H  E    M  O  L  S    P  R  O  G  R  A  M      #
+          #                    Version 1.0                        #
+          #                                                       #
+          #     Department of Crystallography and Biophysics,     #
+          #    University of Madras, Chennai - 600 025, INDIA     #
+          #                                                       #
+          #                                                       #
+          #########################################################
+
+
+                         Job started on 22-Feb-23
+
+                               at 20:08:01
+
+ molecule name :  
+ ALA                                                                            
+                                                  
+ The sequence   : AAAAA
+ sequence length:   5
+ iatmno :            53
+ No. of atoms   :  53
+ No. of Parameters(dihedral angles) =           10
+ pargen o.k
+           2           4           5          53
+           4          10          11          53
+          12          14          15          53
+          14          20          21          53
+          22          24          25          53
+          24          30          31          53
+          32          34          35          53
+          34          40          41          53
+          42          44          45          53
+          44          50          51          53
+
+                         Job ended on 22-Feb-23
+
+                               at 20:08:01
+
+ cpu time = :   0.1277270    
+Randomised Sobol sequence generated
+
+Discrepancy: 0.09302134452537425
+/home/rebairo/work/PolyMols/uniform_src_sim/res/ALA
+/home/rebairo/work/PolyMols/uniform_src_sim/res/ALA/QMC_MINIMIZED
+/home/rebairo/work/PolyMols/uniform_src_sim/res/ALA/QMC_SAMPLED
+
+
+-------------------------BEGIN SAMPLING ---------------------
+
+
+
+QMC_SAMPLED_Structure: 15.pdb -25761.76361294621 kJ/mol
+QMC_SAMPLED_Structure: 1.pdb -21407.274365072804 kJ/mol
+QMC_SAMPLED_Structure: 16.pdb -25698.699906517726 kJ/mol
+QMC_SAMPLED_Structure: 7.pdb -35782.822922533305 kJ/mol
+QMC_SAMPLED_Structure: 18.pdb -25407.579338698728 kJ/mol
+QMC_SAMPLED_Structure: 24.pdb -26069.195119159096 kJ/mol
+QMC_SAMPLED_Structure: 23.pdb -24087.69778874382 kJ/mol
+QMC_SAMPLED_Structure: 20.pdb 2373935261875501.5 kJ/mol
+QMC_SAMPLED_Structure: 27.pdb -25524.21879647344 kJ/mol
+QMC_SAMPLED_Structure: 4.pdb -35901.62670738082 kJ/mol
+QMC_SAMPLED_Structure: 19.pdb 506326.21643154713 kJ/mol
+QMC_SAMPLED_Structure: 26.pdb -22908.413739875992 kJ/mol
+QMC_SAMPLED_Structure: 22.pdb -35886.01650892574 kJ/mol
+QMC_SAMPLED_Structure: 28.pdb -25463.44959126243 kJ/mol
+QMC_SAMPLED_Structure: 10.pdb 1477396.81823975 kJ/mol
+QMC_SAMPLED_Structure: 25.pdb -23310.22346135442 kJ/mol
+QMC_SAMPLED_Structure: 12.pdb -25708.07624654094 kJ/mol
+QMC_SAMPLED_Structure: 0.pdb -34789.17433536054 kJ/mol
+QMC_SAMPLED_Structure: 13.pdb -10613.016609233087 kJ/mol
+QMC_SAMPLED_Structure: 17.pdb -36932.27203803983 kJ/mol
+QMC_SAMPLED_Structure: 31.pdb -31632.851254351706 kJ/mol
+QMC_SAMPLED_Structure: 9.pdb -26247.648391342726 kJ/mol
+QMC_SAMPLED_Structure: 14.pdb 3477536.761879082 kJ/mol
+QMC_SAMPLED_Structure: 5.pdb -25711.658002720593 kJ/mol
+QMC_SAMPLED_Structure: 11.pdb -25617.01354021036 kJ/mol
+QMC_SAMPLED_Structure: 29.pdb -25865.051730429215 kJ/mol
+QMC_SAMPLED_Structure: 3.pdb -24160.99566824634 kJ/mol
+QMC_SAMPLED_Structure: 8.pdb -46417.04735298181 kJ/mol
+QMC_SAMPLED_Structure: 6.pdb -11433.855981061333 kJ/mol
+QMC_SAMPLED_Structure: 21.pdb -39402.805957419165 kJ/mol
+QMC_SAMPLED_Structure: 30.pdb -25975.700788640166 kJ/mol
+QMC_SAMPLED_Structure: 2.pdb -32733.80353368417 kJ/mol
+
+
+-------------------------SAMPLING DONE---------------------
+
+-------------------------BEGIN MINIMIZATION---------------------
+
+
+
+QMC_MINIMIZED_Structure: 15.pdb -423.7702913700893 kJ/mol
+QMC_MINIMIZED_Structure: 1.pdb -372.530636402517 kJ/mol
+QMC_MINIMIZED_Structure: 16.pdb -164.41232129682604 kJ/mol
+QMC_MINIMIZED_Structure: 7.pdb -382.64340444990904 kJ/mol
+QMC_MINIMIZED_Structure: 18.pdb -414.58517720137974 kJ/mol
+QMC_MINIMIZED_Structure: 24.pdb -409.5547317098151 kJ/mol
+QMC_MINIMIZED_Structure: 23.pdb -415.73189911892297 kJ/mol
+QMC_MINIMIZED_Structure: 20.pdb -421.45626920572806 kJ/mol
+QMC_MINIMIZED_Structure: 27.pdb -375.34826572088264 kJ/mol
+QMC_MINIMIZED_Structure: 4.pdb -354.6093842372334 kJ/mol
+QMC_MINIMIZED_Structure: 19.pdb -403.1377069239791 kJ/mol
+QMC_MINIMIZED_Structure: 26.pdb -452.1232849227449 kJ/mol
+QMC_MINIMIZED_Structure: 22.pdb -387.837710044198 kJ/mol
+QMC_MINIMIZED_Structure: 28.pdb -401.42918978926735 kJ/mol
+QMC_MINIMIZED_Structure: 10.pdb -408.3398863149528 kJ/mol
+QMC_MINIMIZED_Structure: 25.pdb -165.99932259005266 kJ/mol
+QMC_MINIMIZED_Structure: 12.pdb -400.562488584022 kJ/mol
+QMC_MINIMIZED_Structure: 0.pdb -375.3191223343572 kJ/mol
+QMC_MINIMIZED_Structure: 13.pdb -413.67684023960976 kJ/mol
+QMC_MINIMIZED_Structure: 17.pdb -447.38561016756705 kJ/mol
+QMC_MINIMIZED_Structure: 31.pdb -431.0213693378402 kJ/mol
+QMC_MINIMIZED_Structure: 9.pdb -364.40201344973707 kJ/mol
+QMC_MINIMIZED_Structure: 14.pdb -411.6691651890177 kJ/mol
+QMC_MINIMIZED_Structure: 5.pdb -386.9303751737827 kJ/mol
+QMC_MINIMIZED_Structure: 11.pdb -444.9042237186461 kJ/mol
+QMC_MINIMIZED_Structure: 29.pdb -430.3083543191646 kJ/mol
+QMC_MINIMIZED_Structure: 3.pdb -411.404859576827 kJ/mol
+QMC_MINIMIZED_Structure: 8.pdb -393.6153596025773 kJ/mol
+QMC_MINIMIZED_Structure: 6.pdb -412.37449484004776 kJ/mol
+QMC_MINIMIZED_Structure: 21.pdb -368.10317381727003 kJ/mol
+QMC_MINIMIZED_Structure: 30.pdb -407.4013277960278 kJ/mol
+QMC_MINIMIZED_Structure: 2.pdb -56.719074756581335 kJ/mol
+
+
+-------------------------MINIMIZATION DONE---------------------
+
+ MODEL ID:           1          15 ENERGY (KJ):  -42.37700    
+ MODEL ID:           2           1 ENERGY (KJ):  -37.25300    
+ MODEL ID:           3          16 ENERGY (KJ):  -16.44100    
+ MODEL ID:           4           7 ENERGY (KJ):  -38.26400    
+ MODEL ID:           5          18 ENERGY (KJ):  -41.45900    
+ MODEL ID:           6          24 ENERGY (KJ):  -40.95500    
+ MODEL ID:           7          23 ENERGY (KJ):  -41.57300    
+ MODEL ID:           8          20 ENERGY (KJ):  -42.14600    
+ MODEL ID:           9          27 ENERGY (KJ):  -37.53500    
+ MODEL ID:          10           4 ENERGY (KJ):  -35.46100    
+ MODEL ID:          11          19 ENERGY (KJ):  -40.31400    
+ MODEL ID:          12          26 ENERGY (KJ):  -45.21200    
+ MODEL ID:          13          22 ENERGY (KJ):  -38.78400    
+ MODEL ID:          14          28 ENERGY (KJ):  -40.14300    
+ MODEL ID:          15          10 ENERGY (KJ):  -40.83400    
+ MODEL ID:          16          25 ENERGY (KJ):  -16.60000    
+ MODEL ID:          17          12 ENERGY (KJ):  -40.05600    
+ MODEL ID:          18           0 ENERGY (KJ):  -37.53200    
+ MODEL ID:          19          13 ENERGY (KJ):  -41.36800    
+ MODEL ID:          20          17 ENERGY (KJ):  -44.73900    
+ MODEL ID:          21          31 ENERGY (KJ):  -43.10200    
+ MODEL ID:          22           9 ENERGY (KJ):  -36.44000    
+ MODEL ID:          23          14 ENERGY (KJ):  -41.16700    
+ MODEL ID:          24           5 ENERGY (KJ):  -38.69300    
+ MODEL ID:          25          11 ENERGY (KJ):  -44.49000    
+ MODEL ID:          26          29 ENERGY (KJ):  -43.03100    
+ MODEL ID:          27           3 ENERGY (KJ):  -41.14000    
+ MODEL ID:          28           8 ENERGY (KJ):  -39.36100    
+ MODEL ID:          29           6 ENERGY (KJ):  -41.23700    
+ MODEL ID:          30          21 ENERGY (KJ):  -36.81000    
+ MODEL ID:          31          30 ENERGY (KJ):  -40.74000    
+ MODEL ID:          32           2 ENERGY (KJ):  -5.672000    
+ The sequence   : AAAAA
+ sequence length:   5
+ iatmno :            53
+ No. of atoms   :  53
+
+**********CLUSTERING MINIMIZED STRUCTURES**************
+
+ DONE2
+ cluster o.k
+
+                         Job ended on 22-Feb-23
+
+                               at 20:08:39
+
+ cpu time = :   0.0000000E+00
+ /home/rebairo/work/PolyMols/uniform_src_sim/res/ALA/ALA_inpp.pdb               
+                                                  
+ The sequence   : AAAAA
+ sequence length:   5
+ iatmno :            53
+ No. of atoms   :  53
+ No. of Parameters(dihedral angles) =           10
+    1      0    0    0    0  phi 
+    1      1    5   11   13  psi 
+    2     11   13   15   21  phi 
+    2     13   15   21   23  psi 
+    3     21   23   25   31  phi 
+    3     23   25   31   33  psi 
+    4     31   33   35   41  phi 
+    4     33   35   41   43  psi 
+    5     41   43   45   51  phi 
+    5      0    0    0    0  psi 
+   1    0.000     93.97    49.54    34.69   156.64   109.26    52.23    84.67    45.51     0.00
+   2    0.000    167.51    48.80    41.79   137.62   179.59   -59.43   159.47    45.78     0.00
+   3    0.000    156.26  -139.93   150.59  -135.71    84.99    69.97   -44.64  -128.86     0.00
+   4    0.000     87.30    58.51   156.63    58.96   103.23    63.04   -69.58  -139.86     0.00
+   5    0.000    106.64    53.56    30.27  -131.49    80.91    64.55   -52.47  -132.21     0.00
+   6    0.000    124.39    57.76    21.75  -120.88    60.85    55.58   -73.90   -73.16     0.00
+   7    0.000    -74.77   -77.84    64.07    52.80   -74.57   -74.49   -24.71  -123.39     0.00
+   8    0.000    107.57    49.33    28.82  -171.56   117.41    59.31   -69.71  -132.59     0.00
+   9    0.000     64.65    60.72   123.63    68.73   137.12    60.61   -63.21  -131.54     0.00
+  10    0.000    133.17    54.15    77.29    76.15   160.35    47.76  -156.49   -81.38     0.00
+  11    0.000    124.28   127.76   128.98    62.21   -52.78  -130.05  -156.05   -57.33     0.00
+  12    0.000    -66.30   -70.75    76.04    48.50   -99.50   -61.60   -85.37   -61.13     0.00
+  13    0.000     76.87    57.91   132.73    60.82   137.30    53.58   -88.15  -134.17     0.00
+  14    0.000     68.99    56.59   145.84   126.74   -59.06  -139.04   -77.04   -74.20     0.00
+  15    0.000     69.22    52.01  -158.24    65.65   -52.50  -126.20   -66.96  -141.50     0.00
+  16    0.000    116.14    46.21  -134.82   -51.12   147.55  -149.90    22.04   120.23     0.00
+  17    0.000     97.86   134.39   -30.74  -149.56   134.00    63.09   -60.66  -147.39     0.00
+  18    0.000     69.48    61.84   119.26    67.99   143.11    59.71   -64.94  -132.95     0.00
+  19    0.000    -84.25  -156.86   151.42    58.73   -75.69  -139.69    20.56  -146.98     0.00
+  20    0.000     84.14  -146.35   -76.42   -77.36    59.70    57.40   -65.36   -49.94     0.00
+  21    0.000    118.16    66.49   -69.78   -58.12   -42.94  -149.51   133.37    37.86     0.00
+  22    0.000    -63.21  -137.54   118.24    49.17    80.36    70.06   -45.42   -72.19     0.00
+  23    0.000     74.50  -159.33   112.44    55.74   -74.31  -133.43     9.48  -140.43     0.00
+  24    0.000    -61.48   132.99    24.80  -146.78    99.69    63.66   -50.00  -136.86     0.00
+  25    0.000    122.86    61.81   -65.76   -63.30    96.17    51.27  -166.07   -58.35     0.00
+  26    0.000    100.96    64.00   -58.76   -63.09   127.86    61.12   -82.33  -142.08     0.00
+  27    0.000     75.38  -155.34   101.35    56.31   -73.00  -129.12     3.59  -133.63     0.00
+  28    0.000    143.23    62.87   -67.83   -60.81   134.74   -58.75   115.86   130.65     0.00
+  29    0.000    -77.84  -145.05   100.70    57.88   -74.42   -70.91   -29.79  -148.15     0.00
+  30    0.000    107.34    47.70   105.13    66.11   115.56    60.22    90.36    47.23     0.00
+  31    0.000     67.76  -155.95    93.13    52.36   -81.82   -79.02   -32.92  -142.93     0.00
+  32    0.000    117.84    55.20   159.03  -157.81    26.41   114.39   157.22  -151.49     0.00

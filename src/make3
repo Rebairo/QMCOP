@@ -1,0 +1,3 @@
+ifort -c drivecl.f pdbgen.f varinit.f cluster.f mclust.f
+ifort -o clust drivecl.o pdbgen.o varinit.o cluster.o mclust.o
+

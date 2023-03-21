@@ -1,0 +1,537 @@
+REMARK  SEQUENCE LENGTH            =    10
+REMARK  GLOBAL RRMSD CUTOFF        =  0.40
+REMARK  TOTAL STRUCTURES           =   512
+REMARK  NUMBER OF CLUSTERS         =    38
+      REMARK  CN  NM  Energy    PACKD   CUTOF   RMSD    RRMSD     CRMS    CRRMS
+REMARK   1   5 -497.56    0.14    0.35    2.34    0.37    8.06    2.87    0.52
+REMARK   2   3 -496.76    0.14    0.37    2.20    0.38    6.51    2.98    0.63
+REMARK   3   5 -494.01    0.14    0.37    2.38    0.36    8.36    4.76    0.91
+REMARK   4   8 -492.80    0.13    0.36    2.48    0.37    9.82    4.55    0.86
+REMARK   5   9 -492.55    0.17    0.35    2.52    0.35    9.94    3.96    0.68
+REMARK   6  92 -491.71    0.13    0.37    2.96    0.39   11.34    5.11    0.86
+REMARK   7   3 -490.93    0.14    0.31    2.25    0.39    7.51    4.07    0.71
+REMARK   8   4 -490.63    0.18    0.38    2.29    0.35    7.05    4.27    0.82
+REMARK   9  36 -490.51    0.13    0.36    2.77    0.39    9.69    4.64    0.82
+REMARK  10  79 -490.46    0.12    0.36    2.99    0.39   10.58    5.48    0.91
+REMARK  11  16 -490.36    0.11    0.37    2.74    0.43    9.36    4.23    0.84
+REMARK  12   6 -490.26    0.18    0.35    2.29    0.34    8.96    4.50    0.86
+REMARK  13   2 -490.07    0.14    0.38    2.40    0.38    9.20    3.99    0.75
+REMARK  14  21 -489.75    0.13    0.36    2.78    0.38   11.41    5.58    0.96
+REMARK  15   4 -489.66    0.16    0.36    2.03    0.33    7.62    3.57    0.67
+REMARK  16  26 -489.18    0.14    0.35    2.84    0.38   11.60    4.65    0.78
+REMARK  17  14 -488.58    0.13    0.35    2.83    0.40    9.21    4.25    0.74
+REMARK  18  17 -488.25    0.17    0.37    2.70    0.34   12.41    5.51    0.89
+REMARK  19   7 -488.03    0.13    0.34    2.55    0.39    8.42    3.40    0.58
+REMARK  20   5 -487.73    0.16    0.36    2.20    0.35    7.92    3.72    0.71
+REMARK  21   8 -487.71    0.17    0.36    2.42    0.33   10.43    4.15    0.71
+REMARK  22   3 -487.69    0.18    0.35    2.12    0.31    6.21    4.09    0.76
+REMARK  23   3 -487.64    0.13    0.34    1.82    0.31    7.00    3.67    0.78
+REMARK  24   3 -487.64    0.13    0.33    1.82    0.31    7.00    1.21    0.21
+REMARK  25  18 -487.60    0.16    0.35    2.55    0.36    9.04    4.47    0.79
+REMARK  26  63 -487.09    0.14    0.37    2.95    0.37   12.01    6.01    0.94
+REMARK  27  12 -487.07    0.13    0.34    2.74    0.38   10.04    4.17    0.73
+REMARK  28  46 -486.46    0.13    0.36    2.93    0.39   10.42    5.38    0.91
+REMARK  29   4 -486.20    0.18    0.39    2.34    0.32   10.49    5.19    0.92
+REMARK  30  11 -486.11    0.18    0.37    2.45    0.35   10.22    5.02    0.90
+REMARK  31  11 -486.11    0.18    0.36    2.45    0.35   10.22    5.17    0.92
+REMARK  32  11 -486.11    0.18    0.37    2.45    0.35   10.22    5.06    0.90
+REMARK  33  12 -485.70    0.12    0.36    2.79    0.40   10.24    4.31    0.79
+REMARK  34  56 -485.43    0.14    0.37    2.99    0.38   12.13    5.78    0.93
+REMARK  35 122 -485.33    0.14    0.36    3.12    0.38   12.23    5.71    0.87
+REMARK  36   3 -485.08    0.14    0.35    2.44    0.35    8.97    4.27    0.74
+REMARK  37  22 -482.70    0.15    0.36    2.89    0.36   12.23    5.19    0.82
+REMARK  38   4 -480.17    0.20    0.37    2.18    0.33    7.71    4.02    0.72
+MODEL       1      -497.56
+ATOM      1  CA  ALA     1       1.239  -0.253  -1.366                         
+ATOM      2  CA  ALA     2       2.600  -1.468  -2.445                         
+ATOM      3  CA  ALA     3       3.358  -3.224  -0.712                         
+ATOM      4  CA  ALA     4       5.766  -3.683   1.039                         
+ATOM      5  CA  ALA     5       6.896  -3.640   0.219                         
+ATOM      6  CA  ALA     6       5.577  -3.697  -2.381                         
+ATOM      7  CA  ALA     7       4.510  -3.627  -4.009                         
+ATOM      8  CA  ALA     8       4.310  -5.634  -6.636                         
+ATOM      9  CA  ALA     9       3.305  -5.284  -7.250                         
+ATOM     10  CA  ALA    10       1.048  -5.389  -7.057                         
+TER
+ENDMDL
+MODEL       2      -496.76
+ATOM      1  CA  ALA     1       2.406  -0.458   0.688                         
+ATOM      2  CA  ALA     2       3.932  -0.422   0.953                         
+ATOM      3  CA  ALA     3       2.384   1.509   0.196                         
+ATOM      4  CA  ALA     4      -0.178   2.669  -0.550                         
+ATOM      5  CA  ALA     5       0.405   2.928   0.919                         
+ATOM      6  CA  ALA     6       2.883   1.579   2.379                         
+ATOM      7  CA  ALA     7       5.035  -0.227   2.200                         
+ATOM      8  CA  ALA     8       5.024  -1.298   2.475                         
+ATOM      9  CA  ALA     9       4.171  -2.210   2.425                         
+ATOM     10  CA  ALA    10       3.857  -0.718   1.789                         
+TER
+ENDMDL
+MODEL       3      -494.01
+ATOM      1  CA  ALA     1       2.083   0.067  -0.299                         
+ATOM      2  CA  ALA     2       2.866   1.632   1.192                         
+ATOM      3  CA  ALA     3       2.868   2.607   2.040                         
+ATOM      4  CA  ALA     4       1.728   3.691   2.032                         
+ATOM      5  CA  ALA     5       2.016   3.225   0.736                         
+ATOM      6  CA  ALA     6       1.576   4.341   1.581                         
+ATOM      7  CA  ALA     7       1.849   3.960   1.032                         
+ATOM      8  CA  ALA     8       3.041   2.789   0.260                         
+ATOM      9  CA  ALA     9       2.854   2.144   0.883                         
+ATOM     10  CA  ALA    10       4.231   1.028   2.048                         
+TER
+ENDMDL
+MODEL       4      -492.80
+ATOM      1  CA  ALA     1       1.533  -0.527  -0.202                         
+ATOM      2  CA  ALA     2       2.528  -0.266  -0.778                         
+ATOM      3  CA  ALA     3       2.367  -0.026  -0.899                         
+ATOM      4  CA  ALA     4       1.252  -0.749  -1.214                         
+ATOM      5  CA  ALA     5       0.592  -1.634  -1.066                         
+ATOM      6  CA  ALA     6       0.855  -1.695  -1.202                         
+ATOM      7  CA  ALA     7       1.990  -1.823  -1.570                         
+ATOM      8  CA  ALA     8       2.812  -2.056  -1.758                         
+ATOM      9  CA  ALA     9       2.865  -1.828  -2.474                         
+ATOM     10  CA  ALA    10       3.120  -3.150  -2.581                         
+TER
+ENDMDL
+MODEL       5      -492.55
+ATOM      1  CA  ALA     1       2.498   0.213  -0.144                         
+ATOM      2  CA  ALA     2       3.036  -0.241   1.333                         
+ATOM      3  CA  ALA     3       3.417  -0.418   2.191                         
+ATOM      4  CA  ALA     4       4.848  -1.133   3.298                         
+ATOM      5  CA  ALA     5       5.510  -0.844   3.536                         
+ATOM      6  CA  ALA     6       5.649  -0.729   4.351                         
+ATOM      7  CA  ALA     7       5.982  -0.249   3.983                         
+ATOM      8  CA  ALA     8       7.799  -0.569   3.762                         
+ATOM      9  CA  ALA     9       9.018  -0.780   4.004                         
+ATOM     10  CA  ALA    10       8.952  -0.948   4.368                         
+TER
+ENDMDL
+MODEL       6      -491.71
+ATOM      1  CA  ALA     1       1.584   0.102   0.062                         
+ATOM      2  CA  ALA     2       2.779  -0.053   0.051                         
+ATOM      3  CA  ALA     3       3.428  -0.124  -0.157                         
+ATOM      4  CA  ALA     4       3.869  -0.101  -0.308                         
+ATOM      5  CA  ALA     5       3.833  -0.099  -0.208                         
+ATOM      6  CA  ALA     6       4.026   0.186  -0.088                         
+ATOM      7  CA  ALA     7       4.701   0.236   0.132                         
+ATOM      8  CA  ALA     8       5.455   0.156   0.394                         
+ATOM      9  CA  ALA     9       5.650   0.250   0.680                         
+ATOM     10  CA  ALA    10       5.468   0.280   0.645                         
+TER
+ENDMDL
+MODEL       7      -490.93
+ATOM      1  CA  ALA     1       2.147   0.273  -1.516                         
+ATOM      2  CA  ALA     2       4.529   0.397   1.511                         
+ATOM      3  CA  ALA     3       1.988   2.403   3.650                         
+ATOM      4  CA  ALA     4       2.899   5.886   2.195                         
+ATOM      5  CA  ALA     5       6.522   6.772   3.196                         
+ATOM      6  CA  ALA     6       8.916   3.788   3.360                         
+ATOM      7  CA  ALA     7      11.661   2.005   1.301                         
+ATOM      8  CA  ALA     8       9.667   3.354  -1.753                         
+ATOM      9  CA  ALA     9       5.885   3.038  -2.391                         
+ATOM     10  CA  ALA    10       6.477   0.378  -5.133                         
+TER
+ENDMDL
+MODEL       8      -490.63
+ATOM      1  CA  ALA     1       2.291   0.541  -0.030                         
+ATOM      2  CA  ALA     2       3.087   0.167   0.902                         
+ATOM      3  CA  ALA     3       2.573  -0.828   1.389                         
+ATOM      4  CA  ALA     4       2.307  -2.227   1.497                         
+ATOM      5  CA  ALA     5       3.145  -3.105   0.537                         
+ATOM      6  CA  ALA     6       3.771  -3.327   0.584                         
+ATOM      7  CA  ALA     7       3.862  -2.883   1.055                         
+ATOM      8  CA  ALA     8       4.606  -1.551   1.625                         
+ATOM      9  CA  ALA     9       3.448  -0.199   2.463                         
+ATOM     10  CA  ALA    10       2.943  -1.254   2.681                         
+TER
+ENDMDL
+MODEL       9      -490.51
+ATOM      1  CA  ALA     1       1.330  -0.320  -0.070                         
+ATOM      2  CA  ALA     2       2.846  -0.869  -0.447                         
+ATOM      3  CA  ALA     3       3.449  -1.640  -0.683                         
+ATOM      4  CA  ALA     4       4.094  -2.099  -1.105                         
+ATOM      5  CA  ALA     5       4.268  -2.133  -1.690                         
+ATOM      6  CA  ALA     6       5.301  -2.370  -2.477                         
+ATOM      7  CA  ALA     7       6.181  -2.810  -2.538                         
+ATOM      8  CA  ALA     8       5.899  -3.208  -2.218                         
+ATOM      9  CA  ALA     9       5.500  -2.879  -1.707                         
+ATOM     10  CA  ALA    10       4.493  -2.851  -1.067                         
+TER
+ENDMDL
+MODEL      10      -490.46
+ATOM      1  CA  ALA     1       1.331   0.183   0.118                         
+ATOM      2  CA  ALA     2       2.747   0.420  -0.194                         
+ATOM      3  CA  ALA     3       3.525   0.990  -0.111                         
+ATOM      4  CA  ALA     4       3.421   1.144  -0.073                         
+ATOM      5  CA  ALA     5       2.847   1.474   0.040                         
+ATOM      6  CA  ALA     6       2.331   1.484   0.218                         
+ATOM      7  CA  ALA     7       1.721   1.222   0.399                         
+ATOM      8  CA  ALA     8       1.772   1.406   0.777                         
+ATOM      9  CA  ALA     9       2.254   1.721   0.655                         
+ATOM     10  CA  ALA    10       2.061   1.846   0.740                         
+TER
+ENDMDL
+MODEL      11      -490.36
+ATOM      1  CA  ALA     1       1.492   0.088  -0.307                         
+ATOM      2  CA  ALA     2       3.177  -0.580   0.719                         
+ATOM      3  CA  ALA     3       4.157  -0.667   1.134                         
+ATOM      4  CA  ALA     4       4.664   0.183   0.692                         
+ATOM      5  CA  ALA     5       4.072  -0.022  -0.501                         
+ATOM      6  CA  ALA     6       4.816  -0.129   0.417                         
+ATOM      7  CA  ALA     7       6.150  -0.116   1.731                         
+ATOM      8  CA  ALA     8       6.955  -0.535   1.602                         
+ATOM      9  CA  ALA     9       7.006  -0.780   1.472                         
+ATOM     10  CA  ALA    10       6.902  -0.327   1.403                         
+TER
+ENDMDL
+MODEL      12      -490.26
+ATOM      1  CA  ALA     1       1.813  -0.052   0.050                         
+ATOM      2  CA  ALA     2       3.079   0.404  -0.147                         
+ATOM      3  CA  ALA     3       2.060   0.001   0.569                         
+ATOM      4  CA  ALA     4       2.160  -0.413   0.675                         
+ATOM      5  CA  ALA     5       1.820  -1.336  -0.200                         
+ATOM      6  CA  ALA     6       2.540  -1.903  -0.114                         
+ATOM      7  CA  ALA     7       3.378  -1.363  -0.111                         
+ATOM      8  CA  ALA     8       3.556  -2.984  -0.664                         
+ATOM      9  CA  ALA     9       4.276  -3.458  -0.382                         
+ATOM     10  CA  ALA    10       3.710  -2.646  -0.136                         
+TER
+ENDMDL
+MODEL      13      -490.07
+ATOM      1  CA  ALA     1       1.471  -1.310   0.524                         
+ATOM      2  CA  ALA     2       2.554  -0.188  -2.379                         
+ATOM      3  CA  ALA     3       2.135   0.690  -3.031                         
+ATOM      4  CA  ALA     4       1.845   0.949  -4.925                         
+ATOM      5  CA  ALA     5       2.554  -0.795  -4.609                         
+ATOM      6  CA  ALA     6       1.749  -2.232  -2.314                         
+ATOM      7  CA  ALA     7       2.448  -4.636  -2.231                         
+ATOM      8  CA  ALA     8       2.477  -4.805   0.166                         
+ATOM      9  CA  ALA     9       3.075  -4.797   1.688                         
+ATOM     10  CA  ALA    10       2.766  -2.104   0.804                         
+TER
+ENDMDL
+MODEL      14      -489.75
+ATOM      1  CA  ALA     1       1.037   0.199   0.403                         
+ATOM      2  CA  ALA     2       2.460   0.033  -0.099                         
+ATOM      3  CA  ALA     3       3.569   0.396  -0.308                         
+ATOM      4  CA  ALA     4       3.236   0.959  -0.395                         
+ATOM      5  CA  ALA     5       2.326   0.663  -0.495                         
+ATOM      6  CA  ALA     6       2.014   0.743   0.113                         
+ATOM      7  CA  ALA     7       1.934   0.987   0.010                         
+ATOM      8  CA  ALA     8       1.709   1.066   0.175                         
+ATOM      9  CA  ALA     9       1.944   0.924  -0.267                         
+ATOM     10  CA  ALA    10       2.192   0.926  -0.708                         
+TER
+ENDMDL
+MODEL      15      -489.66
+ATOM      1  CA  ALA     1       1.615  -0.807   0.334                         
+ATOM      2  CA  ALA     2       3.059  -2.844   0.031                         
+ATOM      3  CA  ALA     3       3.911  -3.449   0.185                         
+ATOM      4  CA  ALA     4       5.221  -3.990   0.391                         
+ATOM      5  CA  ALA     5       4.780  -4.079   2.110                         
+ATOM      6  CA  ALA     6       3.107  -5.739   4.215                         
+ATOM      7  CA  ALA     7       4.096  -6.844   2.828                         
+ATOM      8  CA  ALA     8       3.672  -9.313   2.673                         
+ATOM      9  CA  ALA     9       5.148  -9.753   2.247                         
+ATOM     10  CA  ALA    10       6.191  -8.432   2.825                         
+TER
+ENDMDL
+MODEL      16      -489.18
+ATOM      1  CA  ALA     1       1.851   0.105  -0.675                         
+ATOM      2  CA  ALA     2       3.133   0.560  -1.055                         
+ATOM      3  CA  ALA     3       4.585   1.350  -1.158                         
+ATOM      4  CA  ALA     4       4.940   0.920  -2.019                         
+ATOM      5  CA  ALA     5       5.044   0.534  -2.393                         
+ATOM      6  CA  ALA     6       5.137   0.541  -3.182                         
+ATOM      7  CA  ALA     7       5.271   0.453  -3.779                         
+ATOM      8  CA  ALA     8       6.624   0.722  -3.515                         
+ATOM      9  CA  ALA     9       6.775   0.284  -3.330                         
+ATOM     10  CA  ALA    10       5.992  -0.294  -3.390                         
+TER
+ENDMDL
+MODEL      17      -488.58
+ATOM      1  CA  ALA     1       2.251   0.209   0.720                         
+ATOM      2  CA  ALA     2       3.146  -0.574  -0.359                         
+ATOM      3  CA  ALA     3       3.745  -0.280  -0.592                         
+ATOM      4  CA  ALA     4       3.339   0.351  -0.309                         
+ATOM      5  CA  ALA     5       3.505   2.042   0.668                         
+ATOM      6  CA  ALA     6       3.704   2.730   1.230                         
+ATOM      7  CA  ALA     7       3.739   4.548   1.728                         
+ATOM      8  CA  ALA     8       4.314   4.756   2.065                         
+ATOM      9  CA  ALA     9       4.907   4.126   2.642                         
+ATOM     10  CA  ALA    10       4.355   3.162   2.477                         
+TER
+ENDMDL
+MODEL      18      -488.25
+ATOM      1  CA  ALA     1       1.896  -0.185   0.087                         
+ATOM      2  CA  ALA     2       3.039  -0.247   0.099                         
+ATOM      3  CA  ALA     3       3.521  -0.965   0.073                         
+ATOM      4  CA  ALA     4       4.096  -1.070  -0.123                         
+ATOM      5  CA  ALA     5       4.712  -0.652  -0.224                         
+ATOM      6  CA  ALA     6       4.185  -0.932  -0.207                         
+ATOM      7  CA  ALA     7       4.166  -0.912   0.068                         
+ATOM      8  CA  ALA     8       4.662  -0.924   0.264                         
+ATOM      9  CA  ALA     9       5.258  -0.865   0.258                         
+ATOM     10  CA  ALA    10       5.553  -1.150   0.288                         
+TER
+ENDMDL
+MODEL      19      -488.03
+ATOM      1  CA  ALA     1       1.122  -0.367  -0.028                         
+ATOM      2  CA  ALA     2       3.442  -0.903  -1.492                         
+ATOM      3  CA  ALA     3       4.784  -3.141  -0.742                         
+ATOM      4  CA  ALA     4       4.030  -4.208  -3.065                         
+ATOM      5  CA  ALA     5       1.300  -6.204  -2.627                         
+ATOM      6  CA  ALA     6      -0.110  -4.788  -1.649                         
+ATOM      7  CA  ALA     7      -1.281  -3.266  -2.349                         
+ATOM      8  CA  ALA     8      -1.197  -2.690  -5.461                         
+ATOM      9  CA  ALA     9      -3.706  -4.422  -6.583                         
+ATOM     10  CA  ALA    10      -5.672  -5.899  -5.580                         
+TER
+ENDMDL
+MODEL      20      -487.73
+ATOM      1  CA  ALA     1       1.540  -0.585   0.916                         
+ATOM      2  CA  ALA     2       3.910  -2.317   1.329                         
+ATOM      3  CA  ALA     3       4.932  -1.767   0.107                         
+ATOM      4  CA  ALA     4       5.388  -3.007   0.899                         
+ATOM      5  CA  ALA     5       4.982  -5.073   1.922                         
+ATOM      6  CA  ALA     6       4.348  -6.357   3.300                         
+ATOM      7  CA  ALA     7       3.431  -7.219   4.126                         
+ATOM      8  CA  ALA     8       2.145  -6.269   4.375                         
+ATOM      9  CA  ALA     9       1.814  -4.830   4.162                         
+ATOM     10  CA  ALA    10       1.238  -5.262   2.656                         
+TER
+ENDMDL
+MODEL      21      -487.71
+ATOM      1  CA  ALA     1       1.329  -0.782   0.630                         
+ATOM      2  CA  ALA     2       2.979  -1.441   1.097                         
+ATOM      3  CA  ALA     3       3.699  -2.157   2.010                         
+ATOM      4  CA  ALA     4       4.303  -2.942   2.142                         
+ATOM      5  CA  ALA     5       4.767  -3.166   2.784                         
+ATOM      6  CA  ALA     6       4.933  -3.637   2.779                         
+ATOM      7  CA  ALA     7       6.366  -4.692   3.547                         
+ATOM      8  CA  ALA     8       6.414  -5.258   3.975                         
+ATOM      9  CA  ALA     9       5.506  -5.195   3.726                         
+ATOM     10  CA  ALA    10       5.176  -5.588   3.499                         
+TER
+ENDMDL
+MODEL      22      -487.69
+ATOM      1  CA  ALA     1       2.196  -0.740  -0.062                         
+ATOM      2  CA  ALA     2       1.950   1.366   2.359                         
+ATOM      3  CA  ALA     3       2.706   2.392   3.030                         
+ATOM      4  CA  ALA     4       2.317   1.234   1.117                         
+ATOM      5  CA  ALA     5       1.319  -0.589  -0.464                         
+ATOM      6  CA  ALA     6       1.683  -1.078   1.741                         
+ATOM      7  CA  ALA     7       1.867  -0.382   2.002                         
+ATOM      8  CA  ALA     8       2.278   0.324   3.401                         
+ATOM      9  CA  ALA     9       1.430  -1.095   4.516                         
+ATOM     10  CA  ALA    10      -0.009  -3.680   2.965                         
+TER
+ENDMDL
+MODEL      23      -487.64
+ATOM      1  CA  ALA     1       1.613  -1.038  -0.907                         
+ATOM      2  CA  ALA     2       3.372  -1.851  -0.772                         
+ATOM      3  CA  ALA     3       1.516  -0.566  -0.844                         
+ATOM      4  CA  ALA     4       2.045  -1.094  -2.664                         
+ATOM      5  CA  ALA     5       2.795  -0.738  -2.873                         
+ATOM      6  CA  ALA     6       3.206  -0.702  -1.495                         
+ATOM      7  CA  ALA     7       4.108  -2.340  -2.381                         
+ATOM      8  CA  ALA     8       3.562  -2.921  -3.874                         
+ATOM      9  CA  ALA     9       3.162  -2.418  -4.308                         
+ATOM     10  CA  ALA    10       3.833  -2.631  -5.433                         
+TER
+ENDMDL
+MODEL      24      -487.64
+ATOM      1  CA  ALA     1       2.147   0.273  -1.516                         
+ATOM      2  CA  ALA     2       4.529   0.397   1.511                         
+ATOM      3  CA  ALA     3       1.988   2.403   3.650                         
+ATOM      4  CA  ALA     4       2.899   5.886   2.195                         
+ATOM      5  CA  ALA     5       6.522   6.772   3.196                         
+ATOM      6  CA  ALA     6       8.916   3.788   3.360                         
+ATOM      7  CA  ALA     7      11.661   2.005   1.301                         
+ATOM      8  CA  ALA     8       9.667   3.354  -1.753                         
+ATOM      9  CA  ALA     9       5.885   3.038  -2.391                         
+ATOM     10  CA  ALA    10       6.477   0.378  -5.133                         
+TER
+ENDMDL
+MODEL      25      -487.60
+ATOM      1  CA  ALA     1       2.086  -0.063   0.044                         
+ATOM      2  CA  ALA     2       2.965   0.475   0.074                         
+ATOM      3  CA  ALA     3       3.770   1.533   0.364                         
+ATOM      4  CA  ALA     4       3.691   1.187  -0.483                         
+ATOM      5  CA  ALA     5       4.248   1.166  -0.757                         
+ATOM      6  CA  ALA     6       4.941   0.816  -0.000                         
+ATOM      7  CA  ALA     7       5.352   0.775   1.401                         
+ATOM      8  CA  ALA     8       6.091   0.613   1.707                         
+ATOM      9  CA  ALA     9       6.948   0.864   1.917                         
+ATOM     10  CA  ALA    10       7.317   0.558   0.942                         
+TER
+ENDMDL
+MODEL      26      -487.09
+ATOM      1  CA  ALA     1       1.486  -0.213   0.104                         
+ATOM      2  CA  ALA     2       2.829  -0.586  -0.163                         
+ATOM      3  CA  ALA     3       3.562  -0.940  -0.231                         
+ATOM      4  CA  ALA     4       3.923  -0.995  -0.383                         
+ATOM      5  CA  ALA     5       4.101  -0.974  -0.481                         
+ATOM      6  CA  ALA     6       4.362  -1.203  -0.672                         
+ATOM      7  CA  ALA     7       4.361  -1.140  -0.831                         
+ATOM      8  CA  ALA     8       4.419  -1.227  -0.417                         
+ATOM      9  CA  ALA     9       3.996  -1.420  -0.108                         
+ATOM     10  CA  ALA    10       3.282  -1.408   0.022                         
+TER
+ENDMDL
+MODEL      27      -487.07
+ATOM      1  CA  ALA     1       1.584   0.574   0.423                         
+ATOM      2  CA  ALA     2       2.314   0.980  -0.587                         
+ATOM      3  CA  ALA     3       2.237   0.475  -0.955                         
+ATOM      4  CA  ALA     4       1.692  -0.289  -0.406                         
+ATOM      5  CA  ALA     5       0.898  -0.945   0.746                         
+ATOM      6  CA  ALA     6       0.582  -1.789   2.152                         
+ATOM      7  CA  ALA     7       0.568  -1.370   3.060                         
+ATOM      8  CA  ALA     8       0.974   0.053   4.068                         
+ATOM      9  CA  ALA     9      -0.055   1.211   3.056                         
+ATOM     10  CA  ALA    10       0.667   2.085   3.215                         
+TER
+ENDMDL
+MODEL      28      -486.46
+ATOM      1  CA  ALA     1       1.732  -0.234   0.166                         
+ATOM      2  CA  ALA     2       2.712  -0.901  -0.208                         
+ATOM      3  CA  ALA     3       3.300  -1.202  -0.119                         
+ATOM      4  CA  ALA     4       3.324  -0.926  -0.081                         
+ATOM      5  CA  ALA     5       2.934  -0.917  -0.047                         
+ATOM      6  CA  ALA     6       2.592  -0.921   0.225                         
+ATOM      7  CA  ALA     7       3.423  -1.024   0.163                         
+ATOM      8  CA  ALA     8       3.983  -1.193   0.203                         
+ATOM      9  CA  ALA     9       4.708  -1.387  -0.099                         
+ATOM     10  CA  ALA    10       5.050  -1.740  -0.399                         
+TER
+ENDMDL
+MODEL      29      -486.20
+ATOM      1  CA  ALA     1       1.243  -0.546   0.130                         
+ATOM      2  CA  ALA     2       2.725  -0.825  -0.768                         
+ATOM      3  CA  ALA     3       2.648  -1.303  -1.161                         
+ATOM      4  CA  ALA     4       2.604  -2.346  -1.760                         
+ATOM      5  CA  ALA     5       3.237  -2.508  -2.134                         
+ATOM      6  CA  ALA     6       2.359  -1.958  -1.841                         
+ATOM      7  CA  ALA     7       2.164  -1.665  -2.024                         
+ATOM      8  CA  ALA     8       2.485  -2.346  -2.186                         
+ATOM      9  CA  ALA     9       2.813  -3.002  -2.023                         
+ATOM     10  CA  ALA    10       2.972  -2.655  -1.197                         
+TER
+ENDMDL
+MODEL      30      -486.11
+ATOM      1  CA  ALA     1       1.365  -0.193   0.032                         
+ATOM      2  CA  ALA     2       2.959   0.033  -0.451                         
+ATOM      3  CA  ALA     3       3.254  -0.518  -0.766                         
+ATOM      4  CA  ALA     4       3.904  -0.797  -1.143                         
+ATOM      5  CA  ALA     5       4.022  -1.077  -1.463                         
+ATOM      6  CA  ALA     6       3.750  -1.608  -1.020                         
+ATOM      7  CA  ALA     7       3.128  -1.458  -0.994                         
+ATOM      8  CA  ALA     8       2.292  -1.911  -0.720                         
+ATOM      9  CA  ALA     9       1.858  -2.130  -0.262                         
+ATOM     10  CA  ALA    10       1.515  -2.037  -0.109                         
+TER
+ENDMDL
+MODEL      31      -486.11
+ATOM      1  CA  ALA     1       1.742  -0.198   0.068                         
+ATOM      2  CA  ALA     2       3.717   0.210  -0.210                         
+ATOM      3  CA  ALA     3       4.949   1.288  -0.553                         
+ATOM      4  CA  ALA     4       5.930   1.447  -0.200                         
+ATOM      5  CA  ALA     5       6.563   0.853  -0.115                         
+ATOM      6  CA  ALA     6       6.539   0.268  -0.100                         
+ATOM      7  CA  ALA     7       5.403   0.400   0.029                         
+ATOM      8  CA  ALA     8       4.411  -0.175  -0.254                         
+ATOM      9  CA  ALA     9       3.290  -0.631  -0.235                         
+ATOM     10  CA  ALA    10       3.810  -0.818  -0.148                         
+TER
+ENDMDL
+MODEL      32      -486.11
+ATOM      1  CA  ALA     1       1.517   0.333   0.356                         
+ATOM      2  CA  ALA     2       2.955  -1.290  -0.236                         
+ATOM      3  CA  ALA     3       3.282  -1.808  -1.226                         
+ATOM      4  CA  ALA     4       3.145  -1.188  -1.007                         
+ATOM      5  CA  ALA     5       3.484  -1.197  -1.264                         
+ATOM      6  CA  ALA     6       2.851  -1.274  -0.509                         
+ATOM      7  CA  ALA     7       1.803  -0.527   0.073                         
+ATOM      8  CA  ALA     8       1.303   0.379   1.529                         
+ATOM      9  CA  ALA     9       0.597   1.504   1.550                         
+ATOM     10  CA  ALA    10       0.207   1.903   1.483                         
+TER
+ENDMDL
+MODEL      33      -485.70
+ATOM      1  CA  ALA     1       0.822  -0.604  -0.422                         
+ATOM      2  CA  ALA     2       2.211  -0.700  -0.595                         
+ATOM      3  CA  ALA     3       2.547  -0.677   0.358                         
+ATOM      4  CA  ALA     4       3.357  -1.595  -0.332                         
+ATOM      5  CA  ALA     5       3.574  -2.132  -0.804                         
+ATOM      6  CA  ALA     6       2.649  -3.301  -1.539                         
+ATOM      7  CA  ALA     7       1.800  -3.971  -1.823                         
+ATOM      8  CA  ALA     8       1.595  -2.751  -2.150                         
+ATOM      9  CA  ALA     9      -0.313  -2.081  -1.986                         
+ATOM     10  CA  ALA    10      -0.331  -2.626  -1.711                         
+TER
+ENDMDL
+MODEL      34      -485.43
+ATOM      1  CA  ALA     1       1.638   0.223   0.215                         
+ATOM      2  CA  ALA     2       2.972  -0.136   0.524                         
+ATOM      3  CA  ALA     3       3.281   0.100   0.536                         
+ATOM      4  CA  ALA     4       3.386   0.250   0.868                         
+ATOM      5  CA  ALA     5       3.544   0.744   0.709                         
+ATOM      6  CA  ALA     6       3.179   0.677   0.635                         
+ATOM      7  CA  ALA     7       2.963   1.408   0.443                         
+ATOM      8  CA  ALA     8       2.591   1.478   0.724                         
+ATOM      9  CA  ALA     9       2.075   1.232   0.570                         
+ATOM     10  CA  ALA    10       1.518   0.974   0.273                         
+TER
+ENDMDL
+MODEL      35      -485.33
+ATOM      1  CA  ALA     1       1.834  -0.039   0.057                         
+ATOM      2  CA  ALA     2       2.892  -0.233  -0.298                         
+ATOM      3  CA  ALA     3       3.371  -0.431  -0.492                         
+ATOM      4  CA  ALA     4       3.994  -0.487  -0.705                         
+ATOM      5  CA  ALA     5       4.258  -0.305  -0.987                         
+ATOM      6  CA  ALA     6       4.521  -0.305  -1.174                         
+ATOM      7  CA  ALA     7       4.739  -0.043  -1.393                         
+ATOM      8  CA  ALA     8       4.903   0.220  -1.211                         
+ATOM      9  CA  ALA     9       5.022   0.480  -1.213                         
+ATOM     10  CA  ALA    10       4.924   0.719  -1.173                         
+TER
+ENDMDL
+MODEL      36      -485.08
+ATOM      1  CA  ALA     1       0.180  -0.151   2.488                         
+ATOM      2  CA  ALA     2       2.676  -2.498   2.593                         
+ATOM      3  CA  ALA     3       2.746  -4.401   3.654                         
+ATOM      4  CA  ALA     4       2.854  -6.032   5.396                         
+ATOM      5  CA  ALA     5       0.578  -5.826   5.668                         
+ATOM      6  CA  ALA     6       0.133  -3.340   4.612                         
+ATOM      7  CA  ALA     7       0.819  -2.547   5.187                         
+ATOM      8  CA  ALA     8       1.475  -4.806   6.745                         
+ATOM      9  CA  ALA     9      -0.341  -6.591   7.886                         
+ATOM     10  CA  ALA    10      -1.411  -5.495   9.612                         
+TER
+ENDMDL
+MODEL      37      -482.70
+ATOM      1  CA  ALA     1       0.524  -0.040  -0.086                         
+ATOM      2  CA  ALA     2       2.570  -0.849  -0.534                         
+ATOM      3  CA  ALA     3       3.230  -1.973  -0.368                         
+ATOM      4  CA  ALA     4       2.927  -2.791  -1.153                         
+ATOM      5  CA  ALA     5       2.222  -3.110  -1.404                         
+ATOM      6  CA  ALA     6       2.684  -3.903  -1.978                         
+ATOM      7  CA  ALA     7       2.491  -3.941  -2.648                         
+ATOM      8  CA  ALA     8       1.025  -3.575  -2.695                         
+ATOM      9  CA  ALA     9       0.920  -2.989  -2.417                         
+ATOM     10  CA  ALA    10       0.768  -2.864  -2.067                         
+TER
+ENDMDL
+MODEL      38      -480.17
+ATOM      1  CA  ALA     1       0.883   0.246  -0.596                         
+ATOM      2  CA  ALA     2       2.287   2.939  -1.637                         
+ATOM      3  CA  ALA     3       2.681   4.204  -0.552                         
+ATOM      4  CA  ALA     4       1.390   5.785   0.243                         
+ATOM      5  CA  ALA     5       0.333   6.630   1.674                         
+ATOM      6  CA  ALA     6      -0.154   5.830   0.439                         
+ATOM      7  CA  ALA     7      -1.735   5.805  -1.364                         
+ATOM      8  CA  ALA     8      -2.619   5.792  -3.691                         
+ATOM      9  CA  ALA     9      -1.962   3.704  -4.176                         
+ATOM     10  CA  ALA    10      -1.383   1.776  -3.131                         
+TER
+ENDMDL

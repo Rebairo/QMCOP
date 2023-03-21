@@ -1,0 +1,2 @@
+ifort -c clcl.f90 pread.f90
+ifort -o pdbread clcl.o pread.o

@@ -1,0 +1,3 @@
+ifort -c drivedih.f  pdbgen.f amppardih.f varinitdih.f  
+ifort -o diheds drivedih.o pdbgen.o  amppardih.o varinitdih.o 
+
