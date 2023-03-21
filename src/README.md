@@ -9,4 +9,4 @@
 	4. Clust -- clustering the files.
 	5. diheds -- find the diheds of the model.
 2. Baker-tranfomation:
-    This program is an attempt to tranform the quasi-random deterministic variables generated from sobol quasi-random sequence into more uniform (i.i.d) variables by random shift operation in base 2 followed by a baker/tent transformation to improve scoring in the energy function.  
+    This program is an attempt to tranform the quasi-random deterministic variables generated from sobol quasi-random sequence into more uniform (i.i.d) variables by random shift operation in base 1 followed by a baker/tent transformation to improve scoring in the energy function.  
