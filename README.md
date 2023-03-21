@@ -4,7 +4,7 @@ The Repo contains code that predicts polypeptide conformations from their sequen
 1. src/ - contains the source code.  
 2. res/ - contains the results for corresponding polypeptides.    
 
-In results folder:
+In results folder:  
     1. *_mini.pdb - contains final minimized conformations.  
     2. *_clut.pdb - contains clusters and their nearest structures.  
     3. *_pca.dat - contains PCA components of Dihedral angles [Energy,PCA1,PCA2].  
