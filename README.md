@@ -1,4 +1,4 @@
-# QuPoly
+# QMCOP
 The Repo contains code that predicts polypeptide conformations from their sequence:
 
 1. src/ - contains the source code.  
