@@ -16,7 +16,7 @@ In results folder:
 2. Compile libraries ($sh make2),($sh make3),($sh make4),($sh make5)  
 3. Input file - "src/usermols.inp"
 
-#Input file description:  
+# Input file description:  
 File : usermols.inp.  
 Lines:  
 1 - location of the results directory.  
