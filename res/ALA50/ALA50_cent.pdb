@@ -1,19 +1,47 @@
 REMARK  SEQUENCE LENGTH            =    10
-REMARK  GLOBAL RRMSD CUTOFF        =  0.44
+REMARK  GLOBAL RRMSD CUTOFF        =  0.52
 REMARK  TOTAL STRUCTURES           =     8
-REMARK  NUMBER OF CLUSTERS         =     1
+REMARK  NUMBER OF CLUSTERS         =     3
       REMARK  CN  NM  Energy    PACKD   CUTOF   RMSD    RRMSD     CRMS    CRRMS
-REMARK   1   3   -4.34    0.13    0.40    3.52    0.41    9.27    2.91    0.39
-MODEL       1        -4.34
-ATOM      1  CA  ALA     1       0.880  -0.031   1.102                         
-ATOM      2  CA  ALA     2       3.300   0.256   0.239                         
-ATOM      3  CA  ALA     3       4.549  -0.801   2.242                         
-ATOM      4  CA  ALA     4       3.136  -0.312   4.128                         
-ATOM      5  CA  ALA     5       3.381   0.949   6.537                         
-ATOM      6  CA  ALA     6       2.151   1.587   7.995                         
-ATOM      7  CA  ALA     7      -0.313   0.153   8.486                         
-ATOM      8  CA  ALA     8      -1.226   1.889  10.075                         
-ATOM      9  CA  ALA     9       0.239   1.905  11.889                         
-ATOM     10  CA  ALA    10      -1.147  -0.063  12.951                         
+REMARK   1   2  -42.42    0.14    0.43    2.78    0.43    8.89    1.92    0.33
+REMARK   2   2  -39.85    0.19    0.48    2.77    0.43    7.56    3.87    0.76
+REMARK   3   2    7.07    0.14    0.49    4.34    0.49   12.08    4.72    0.66
+MODEL       1       -42.42
+ATOM      1  CA  ALA     1       0.021  -2.538   2.533                         
+ATOM      2  CA  ALA     2       0.428  -1.962   1.477                         
+ATOM      3  CA  ALA     3       1.383  -1.899  -0.749                         
+ATOM      4  CA  ALA     4       3.207  -2.798  -1.926                         
+ATOM      5  CA  ALA     5       2.223  -4.509  -0.011                         
+ATOM      6  CA  ALA     6       0.904  -6.700   1.770                         
+ATOM      7  CA  ALA     7      -0.569  -8.505   4.269                         
+ATOM      8  CA  ALA     8      -4.170  -8.358   3.836                         
+ATOM      9  CA  ALA     9      -5.195  -5.615   2.560                         
+ATOM     10  CA  ALA    10      -3.355  -4.152   3.517                         
+TER
+ENDMDL
+MODEL       2       -39.85
+ATOM      1  CA  ALA     1       3.958  -1.281  -0.459                         
+ATOM      2  CA  ALA     2       4.518  -1.093  -0.501                         
+ATOM      3  CA  ALA     3       4.002   1.400  -0.873                         
+ATOM      4  CA  ALA     4       4.927   0.969  -0.849                         
+ATOM      5  CA  ALA     5       5.463   1.269   0.094                         
+ATOM      6  CA  ALA     6       5.253   1.071   0.515                         
+ATOM      7  CA  ALA     7       6.247  -0.589   1.870                         
+ATOM      8  CA  ALA     8       4.309  -0.856   1.874                         
+ATOM      9  CA  ALA     9       3.028  -1.276   0.219                         
+ATOM     10  CA  ALA    10       4.001  -1.170   0.641                         
+TER
+ENDMDL
+MODEL       3         7.07
+ATOM      1  CA  ALA     1       1.563   0.577   0.599                         
+ATOM      2  CA  ALA     2       2.153   0.012   0.985                         
+ATOM      3  CA  ALA     3       4.365  -1.466   1.300                         
+ATOM      4  CA  ALA     4       3.491  -1.543   1.451                         
+ATOM      5  CA  ALA     5       3.023  -2.911  -0.133                         
+ATOM      6  CA  ALA     6       5.905  -3.582   1.590                         
+ATOM      7  CA  ALA     7       7.029  -2.063  -0.002                         
+ATOM      8  CA  ALA     8       8.454  -0.168  -0.143                         
+ATOM      9  CA  ALA     9       9.333   0.311  -1.779                         
+ATOM     10  CA  ALA    10       8.154   0.415  -2.263                         
 TER
 ENDMDL

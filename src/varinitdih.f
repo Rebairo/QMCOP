@@ -146,7 +146,7 @@ c	print *,dd1,dd2,dd3,dd4,dd5,tu0,tsn,ttn
 	if(idd1.ne.0.and.idd2.ne.0.and.idd3.ne.0.and.idd4.ne.0)goto 251
 	enddo
 251	nvar = nvar + 1
-	!write(*,41) i,idd1, idd2, idd3, idd4,dd5
+	write(*,41) i,idd1, idd2, idd3, idd4,dd5
 cc	write(21,41) i, idd1, idd2, idd3, idd4, dd5
 	ivres(nvar) = i
 	vty(nvar) = dd5
@@ -181,7 +181,7 @@ c	print *,j,i,i1,i2,i3,i4,dih
 	enddo
 c
 c	write(31,*)(phi(ii),ii=1,nn)
-	!write(*,115)j,(phi(ii),ii=1,nn)
+	write(*,115)j,(phi(ii),ii=1,nn)
 c
 	open(unit=11,file=of2,status='unknown')
 	write(11,115) j,(phi(ii),ii=1,nn)
