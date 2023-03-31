@@ -34,16 +34,18 @@ def molsread(inpfile):
 def energy(pdb):
     
     forcefield = ForceField('amber96.xml')
+#    forcefield = ForceField('amber14-all.xml','amber10_obc.xml')
     
+#    forcefield = ForceField('amber14-all.xml','tip3p.xml')
     modeller = Modeller(pdb.topology,pdb.positions)
-#    modeller.addHydrogens(forcefield)
+    modeller.addHydrogens(forcefield)
 #    for ii in modeller.positions:
 #            ii = (ii).in_units_of(nanometers)
 #    print(modeller.positions) 
 
 #        modeller.addSolvent(forcefield,padding=1.0*nanometers)
-#        modeller.addSolvent(forcefield,numAdded=5)
-#        modeller.addSolvent(forcefield,model='tip3p')
+#    modeller.addSolvent(forcefield,numAdded=50)
+#    modeller.addSolvent(forcefield,model='tip3p')
         #modeller.addMissingAtoms(forcefield)
     system = forcefield.createSystem(modeller.topology,ignoreExternalBonds=True)
     integrator = LangevinMiddleIntegrator(300*kelvin, 5/picosecond, 0.004*picoseconds)
@@ -66,9 +68,13 @@ def energy(pdb):
 
 def outp(pdb,mname,mno,mpath,path):
 
+#    forcefield = ForceField('amber10.xml','amber10_obc.xml')
     forcefield = ForceField('amber96.xml')
+#    forcefield = ForceField('amber14-all.xml','tip3p.xml')
     modeller = Modeller(pdb.topology,pdb.positions)
     modeller.addHydrogens(forcefield)
+#    modeller.addSolvent(forcefield,numAdded=50)
+#    modeller.addSolvent(forcefield,model='tip3p')
     system = forcefield.createSystem(modeller.topology,ignoreExternalBonds=True)
     integrator = LangevinMiddleIntegrator(300*kelvin, 5/picosecond, 0.004*picoseconds)
     simulation = Simulation(modeller.topology, system,integrator)

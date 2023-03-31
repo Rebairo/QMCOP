@@ -790,7 +790,7 @@ ccc	open(unit=4,file='mols.inp',status='unknown')
 	enddo
 333	enddo
 c	write(31,*)'No. of Parameters(dihedral angles) = ',ntor
-	write(*,*)'No. of Parameters(dihedral angles) = ',ntor
+c	write(*,*)'No. of Parameters(dihedral angles) = ',ntor
 cc	close(unit=4)
 
 c******************write hydrogen bond parameters*****************************

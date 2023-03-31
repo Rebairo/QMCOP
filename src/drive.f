@@ -91,7 +91,7 @@ c     &                               '      at ', HOUR
 c      WRITE (31,'(2(/25X,2A/))') 'Job started on ', DAY, 
 c     &                               '      at ', HOUR
 c--------read inputs-------------------------------
-	print *,'molecule name :  ',mname
+!	print *,'molecule name :  ',mname
 	read(30,'(A)') seq
 !	read(30,*) ns
 	read(30,*) iopt
@@ -111,7 +111,7 @@ c
 136             continue
                 ns = i
        close(unit=134)
-        print *,ns
+!        print *,ns
 
 c******************************************************
 2	format(/a55/)
@@ -122,7 +122,7 @@ cr	if(iff.eq.2) call ecppar(iopt,fseq,itcount)
 c*******Flushing standard output************
 	call flush(6)
 c*******End of Flushing ********************
-	print *,'pargen o.k'
+!	print *,'pargen o.k'
 c*******Flushing standard output************
 	call flush(6)
 c*******End of Flushing ********************
@@ -184,9 +184,6 @@ cr	endif
       CALL TIME(HOUR)
       WRITE (31,'(2(/25X,2A/))') 'Job ended on ', DAY, 
      &                               '      at ', HOUR
-      WRITE (*,'(2(/25X,2A/))') 'Job ended on ', DAY,
-     &                               '      at ', HOUR
-	write (*,*)'cpu time = : ',etime(tt)
 	write(31,*)'cpu time = : ',etime(tt)
 c*******Flushing standard output************
 	call flush(6)

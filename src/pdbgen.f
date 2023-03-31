@@ -75,9 +75,9 @@ c
 	endif
 182	enddo  
 	write(31,*) 'The sequence   : ',(fseq(i),i=1,lres)
-	write(*,*) 'The sequence   : ',(fseq(i),i=1,lres)
+	!write(*,*) 'The sequence   : ',(fseq(i),i=1,lres)
 	write(31,11)'sequence length: ',lres
-	write(*,11)'sequence length: ',lres
+	!write(*,11)'sequence length: ',lres
 	
 c	if any wrong single letter codes are in the sequence
 c	give caution and reread the sequece again
@@ -244,7 +244,7 @@ c
 c	write the final co-ordinates of molecule
 c
 	open(unit=4,file=pf1,status='unknown')
-	print *,'iatmno :  ',iatmno
+	!print *,'iatmno :  ',iatmno
 	do k=1,iatmno
 	  write(4,30)atom(k),iatmno1,mscode(k),tres(k),iresno2(k),x1(k),
      &    y1(k),z1(k)
@@ -252,7 +252,7 @@ c
 	enddo
 	close(unit=4)
 	write(31,11)'No. of atoms   : ',iatmno1-1
-	write(*,11)'No. of atoms   : ',iatmno1-1
+	!write(*,11)'No. of atoms   : ',iatmno1-1
 	natom = iatmno1-1
         open(unit=121,file='sim.log',status='unknown')
                 write(121,*)'natoms',natom
