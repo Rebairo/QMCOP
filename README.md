@@ -13,7 +13,7 @@ In results folder:
 
 # Instructions:  
 1. Requirements: OpenMM library, Intel Fortran Compiler.  
-2. Compile libraries ($sh make2),($sh make3),($sh make4),($sh make5)  
+2. Compile libraries ($sh make) 
 3. Input file - "src/usermols.inp"
 
 # Input file description:  
