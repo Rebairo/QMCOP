@@ -1,3 +1,0 @@
-ifort -c drive.f pdbgen.f amppar.f varinit.f  conformation.f mols.f
-ifort -o lmols drive.o pdbgen.o  amppar.o varinit.o conformation.o mols.o
-

@@ -1,0 +1,12 @@
+
+ifort -c drive.f pdbgen.f amppar.f varinit.f  conformation.f mols.f
+ifort -o lmols drive.o pdbgen.o  amppar.o varinit.o conformation.o mols.o
+
+ifort -c drivecl.f pdbgen.f varinit.f cluster.f mclust.f
+ifort -o clust drivecl.o pdbgen.o varinit.o cluster.o mclust.o
+
+ifort -c clcl.f90 pread.f90
+ifort -o pdbread clcl.o pread.o
+
+ifort -c drivedih.f  pdbgen.f amppardih.f varinitdih.f  
+ifort -o diheds drivedih.o pdbgen.o  amppardih.o varinitdih.o 

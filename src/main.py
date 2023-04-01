@@ -5,12 +5,12 @@ from datetime import datetime
 from time import process_time
 
 #-----------------------#
-import energy
-import qmc
-import initialize
-import pathdef
-import qgen
-import flibs
+from energy import ENERGY
+from qmc import QMC
+from initialize import VARINIT
+from pathdef import PATHS
+from qgen import QGEN
+from flibs import FORTLIBS
 #-----------------------#
 from openmm.app import *
 from openmm import *
@@ -40,9 +40,16 @@ print("Begin Job at:",job_start)
 jbegin = process_time()
 
 
+#Instantiate class:
+EN = ENERGY()
+qmc = QMC()
+vinit = VARINIT()
+flib = FORTLIBS()
+pths = PATHS()
+qgen = QGEN()
 #Get Input Vars:
-nstr,ind,npar,path,mname,search_sp  =  initialize.read_inp('usermols.inp')
-
+vinit.read_inp('usermols.inp')
+pths.fpaths()
 #--------------------------------#
 #Threshold:
 thresh = 200.0
@@ -50,18 +57,17 @@ thresh2 = 1000.0
 
 
 #Run Initial Sample:
-if ind==1:
-    s,b=qgen.sobol(npar,nstr)
-
+if vinit.indq==1:
+    s,b=qgen.sobol(vinit.npars,vinit.nstr)
+qgen.writeang(s,vinit.npars,b)
 #Initial Conformation generation:
-flibs.conf()
+flib.conf()
 
 #Set files and folders:
 
-spath,mpath,molsfile = pathdef.path(path,mname)
 
 #Use conformations and split them:
-sp = initialize.molsread(os.path.join(path,molsfile),nstr,spath)
+vinit.molsread(os.path.join(vinit.path,pths.molsfile),vinit.nstr,pths.spath)
 
 
 
@@ -69,9 +75,9 @@ sp = initialize.molsread(os.path.join(path,molsfile),nstr,spath)
 #Applying Baker transformation:
 mnum =[]
 #open(fpdb,'w').close()
-for i in (os.listdir(spath)):
-    pdb =   PDBFile(os.path.join(spath,i))
-    ENE = energy.energy(pdb)
+for i in (os.listdir(pths.spath)):
+    pdb =   PDBFile(os.path.join(pths.spath,i))
+    ENE = EN.qmcene(pdb)
     mno = int(i.partition('.')[0])
 
 
@@ -105,7 +111,7 @@ for i in (os.listdir(spath)):
                 break
         if ENE>thresh2:
             print('CONVERGENCE NOT MET: MOVING TO NEXT SAMPLE')         
-            energy.outp(pdb,mname,mno,mpath,path)
+            EN.outp(pdb,mno)
             break
     
 
@@ -113,14 +119,14 @@ for i in (os.listdir(spath)):
     
     if ENE<thresh:
         
-        qmc.accept_move(pdb,mname,mno,mpath,path) 
+        qmc.accept_move(pdb,mno) 
 
        # print('****************************************************')
 #Format conversions:
-flibs.pdbread()
+flib.pdbread()
 #Cluster conformations:
-flibs.clust()
-flibs.dihs()
+flib.clust()
+flib.dihs()
 
 
 

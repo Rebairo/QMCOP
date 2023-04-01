@@ -6,15 +6,15 @@ import sys
 
 # Fortran libs to be called:
 
+class FORTLIBS:
+    def conf(self):
+        os.system("./lmols")
 
-def conf():
-    os.system("./lmols")
+    def pdbread(self):    
+        os.system("./pdbread")
 
-def pdbread():    
-    os.system("./pdbread")
+    def clust(self):
+        os.system("./clust")
 
-def clust():
-    os.system("./clust")
-
-def dihs():
-    os.system("./diheds")
+    def dihs(self):
+        os.system("./diheds")

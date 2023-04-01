@@ -1,3 +1,4 @@
+
 # Compile the files using f2py and import as libraries here:
 
 
@@ -5,11 +6,11 @@
 import numpy as np
 import pandas as pd
 import os
-import energy
-import qgen
-import initialize
-import pathdef
-import flibs
+from energy import ENERGY
+from qgen import QGEN
+from initialize import VARINIT
+from pathdef import PATHS
+from flibs import FORTLIBS
 from openmm.app import *
 from openmm import *
 from openmm.unit import *
@@ -17,65 +18,72 @@ from openmm.unit import *
 
 #Initialize VARS:
 
-nstr,ind,npar,path,mname,search_sp  =  initialize.read_inp('usermols.inp')
-
-spath,mpath,molsfile = pathdef.path(path,mname)
+EN = ENERGY()
+vinit = VARINIT()
+flib = FORTLIBS()
+pths = PATHS()
+qgen = QGEN()
+inpf = vinit.read_inp('usermols.inp')
+pths.fpaths()
 mnum=[]
-def RESAMPLE(ENE,mno):
+
+
+class QMC:
+    def RESAMPLE(self,ENE,mno):
     
-    mnum.append(mno)
+        mnum.append(mno)
         
-    with open ('mols_q.out','r+') as ff:
-        for j in ff.readlines():
-            if(mno==int(j.split()[0])):
-                hh = j
+        with open ('mols_q.out','r+') as ff:
+            for j in ff.readlines():
+                if(mno==int(j.split()[0])):
+                    hh = j
                 #print(hh) 
-            else:
-                hh = j
-    jj = hh.split()[1:]
+                else:
+                    hh = j
+        jj = hh.split()[1:]
         #udat = np.around(np.asarray(jj,dtype=float),decimals=2)
-    U2,b = qgen.sobol(npar,1) 
+        U2,b = qgen.sobol(vinit.npars,1) 
         #sdat =(((udat-(1-2*U))%2))
-    s2dat = np.transpose(U2)
-    s2dat2 = s2dat.reshape((1,npar))
-    df2_udat = pd.DataFrame(s2dat2)
-    df2_udat.to_csv("mols_q.out",sep="\t",header=None,index=True)
-    flibs.conf()
+        s2dat = np.transpose(U2)
+        s2dat2 = s2dat.reshape((1,vinit.npars))
+        df2_udat = pd.DataFrame(s2dat2)
+        df2_udat.to_csv("mols_q.out",sep="\t",header=None,index=True)
+        flib.conf()
         
-    pdb =   PDBFile(os.path.join(path,molsfile))
-    ENE = energy.energy(pdb)
-    print('ENERGY AFTER RESAMPLING:',ENE)
+        pdb =   PDBFile(os.path.join(vinit.path,pths.molsfile))
+        ENE = EN.qmcene(pdb)
+        print('ENERGY AFTER RESAMPLING:',ENE)
 
-    return ENE
+        return ENE
 
-def bakers_transform(ENE,mno):
+    def bakers_transform(self,ENE,mno):
 
-    mnum.append(mno)
+        mnum.append(mno)
         
-    with open ('mols_q.out','r+') as ff:
-        for j in ff.readlines():
-            if(mno==int(j.split()[0])):
-                hh = j
-            else:
-                hh = j
-    jj = hh.split()[1:]
-    udat = np.around(np.asarray(jj,dtype=float),decimals=2)
-    U = (np.random.random(npar))*(search_sp)
-    sdat =(((udat-(U))))
-    sdat2 = sdat.reshape((1,npar))
-    df_udat = pd.DataFrame(sdat2)
-    df_udat.to_csv("mols_q.out",sep="\t",header=None,index=True)
-    flibs.conf()
+        with open ('mols_q.out','r+') as ff:
+            for j in ff.readlines():
+                if(mno==int(j.split()[0])):
+                    hh = j
+                else:
+                    hh = j
+        jj = hh.split()[1:]
+        udat = np.around(np.asarray(jj,dtype=float),decimals=2)
+        U = (np.random.random(vinit.npars))*(vinit.search_sp)
+        sdat =(((udat-(U))))
+        sdat2 = sdat.reshape((1,vinit.npars))
+        df_udat = pd.DataFrame(sdat2)
+        df_udat.to_csv("mols_q.out",sep="\t",header=None,index=True)
+        flib.conf()
     
-    pdb =   PDBFile(os.path.join(path,molsfile))
-    ENE = energy.energy(pdb)
-    print('ENERGY AFTER MOD SHIFT TRANSFORMATION:',ENE)
+        pdb =   PDBFile(os.path.join(vinit.path,pths.molsfile))
+        ENE = EN.qmcene(pdb)
+        print('ENERGY AFTER MOD SHIFT TRANSFORMATION:',ENE)
             
-    return ENE
+        return ENE
 
 
-def accept_move(pdb,mname,mno,mpath,path):
+    def accept_move(self,pdb,mno):
     
-    print('MINIMISING OPTIMAL CONFORMATION')
-    energy.outp(pdb,mname,mno,mpath,path)
-    print('OPTIMAL CONFORMATION GENERATED')
+        print('MINIMISING OPTIMAL CONFORMATION')
+        EN.outp(pdb,vinit.mname,mno,pths.mpath,vinit.path)
+        print('OPTIMAL CONFORMATION GENERATED')
