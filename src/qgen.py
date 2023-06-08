@@ -66,7 +66,12 @@ class QGEN:
         return sample,2**b
   
 
-
+    def uniform(npar,nstr):
+        s = np.zeros((npar,nstr))
+        for i in range(nstr):
+            s[i]=(np.random.random((0.0,1.0,npar))
+        sample = s*vinit.search_sp
+        return sample,nstr
 
 
     def writeang(self,sz,npar,b):

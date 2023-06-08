@@ -58,8 +58,12 @@ thresh2 = 1000.0
 
 #Run Initial Sample:
 if vinit.indq==1:
-    s,b=qgen.sobol(vinit.npars,vinit.nstr)
+    s,b = qgen.sobol(vinit.npars,vinit.nstr)
+elif vinit.indq==2:
+    s,b = qgen.sobol(vinit.npars,vinit.nstr)
+
 qgen.writeang(s,vinit.npars,b)
+
 #Initial Conformation generation:
 flib.conf()
 
